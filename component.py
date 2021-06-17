@@ -1,7 +1,5 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
-from typing import List
-
 
 class Component(ABC):
     """
@@ -20,7 +18,6 @@ class Component(ABC):
         accessing a parent of the component in a tree structure. It can also
         provide some default implementation for these methods.
         """
-
         self._parent = parent
 
     """
